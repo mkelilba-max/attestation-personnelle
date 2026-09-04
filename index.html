@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Attestation — Usage personnel</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#fff;color:#111;font-family:Georgia,"Times New Roman",serif}
+.page{max-width:900px;margin:auto;padding-bottom:30px}
+.hero{width:100%;display:block}
+.title{text-align:center;font-size:46px;font-weight:700;color:#58b85b;margin:38px 15px 8px}
+.subtitle{text-align:center;font-size:28px;font-weight:700;color:#df646b;margin:0 15px 32px}
+.card{margin:0 16px;border:2px solid #39783c;border-radius:24px;padding:28px 16px 18px}
+.field{display:grid;grid-template-columns:42% 58%;min-height:74px;align-items:center}
+.label{font-size:30px;font-weight:700}
+.value{font-size:28px;overflow-wrap:anywhere}
+.qr{display:block;width:150px;height:150px;margin:28px auto 8px}
+.usage{text-align:center;font:600 18px Arial,sans-serif;margin-top:14px}
+@media(max-width:600px){
+.title{font-size:32px;margin-top:24px}
+.subtitle{font-size:21px;margin-bottom:24px}
+.card{border-radius:18px;padding:20px 12px}
+.field{grid-template-columns:1fr;min-height:auto;margin-bottom:16px;gap:3px}
+.label{font-size:22px} .value{font-size:21px}
+}
+</style>
+</head>
+<body>
+<main class="page">
+<img class="hero" src="header_reference.jpg" alt="">
+<h1 class="title">Attestation</h1>
+<h2 class="subtitle">Veuillez vérifier les informations personnelles</h2>
+<section class="card"><div class="field"><div class="label">N° attestation:</div><div class="value">E2628184628</div></div><div class="field"><div class="label">Nom:</div><div class="value">kelilba</div></div><div class="field"><div class="label">Prenom:</div><div class="value">nourredine</div></div><div class="field"><div class="label">Date de naissance:</div><div class="value">21/08/1963</div></div><div class="field"><div class="label">Fils de:</div><div class="value">ahmed</div></div><div class="field"><div class="label">Et de:</div><div class="value">kelilba aicha</div></div><div class="field"><div class="label">Adresse:</div><div class="value">ain oulmene setif</div></div><div class="field"><div class="label">Date de délivrance:</div><div class="value">06/09/2026</div></div></section>
+<img class="qr" src="qr_code.png" alt="QR Code">
+<div class="usage">Usage personnel</div>
+</main>
+</body>
+</html>
